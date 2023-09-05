@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8C3C3"
+    tools:context=".Kef_7">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="729dp"
+        android:background="#C8C3C3">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="Κεφάλαιο 7: Υλοποίηση εφαρμογών σε προγραμματιστικά περιβάλλοντα"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Προγραμματισμός εφαρμογών για φορητές συσκευές"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Οι εντολές των προγραμμάτων γράφονται από τους προγραμματιστές σε τεχνητές γλώσσεςπου ονομάζονται γλώσσες προγραμματισμού."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Οι φορητές συσκευές, κυρίως τα έξυπνα κινητά (smartphones) και οι ταμπλέτες (tablets), έχουν διεισδύσει σε πολλούς τομείς της ανθρώπινης δραστηριότητας, όπως είναι η ενημέρωση, η ψυχαγωγία και η εργασία."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Οι επαγγελματίες προγραμματιστές εφαρμογών για φορητές συσκευές χρησιμοποιούν ολοκληρωμένα περιβάλλοντα ανάπτυξης εφαρμογών, επαγγελματικές γλώσσες προγραμματισμού (π.χ. Java) και αντιμετωπίζουν προβλήματα που σχετίζονται με τους περιορισμένους πόρους των συσκευών (π.χ. επεξεργαστής, μνήμη), με το μικρό μέγεθος της διεπαφής χρήστη κ.α."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Οι εφαρμογές που αναπτύσσονται για φορητές συσκευές είναι
+πολλών κατηγοριών: παιχνίδια, ψυχαγωγίας, κοινωνικής δικτύωσης, επικοινωνίας, εκπαιδευτικές, ενημέρωσης, ηλεκτρονικού
+εμπορίου κ.ά."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Περιβάλλον ανάπτυξης εφαρμογών για φορητές συσκευές με Android:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="411dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:srcCompat="@drawable/android" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="To εκπαιδευτικό περιβάλλον ανάπτυξης εφαρμογών App Inventor"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Η ανάγκη για εύκολη ανάπτυξη εφαρμογών για φορητές συσκευές με Android οδήγησε αρχικά τα εργαστήρια της Google στη
+δημιουργία του App Inventor."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Ακόμα και ένας
+αρχάριος χρήστης μπορεί να συνδεθεί στο App Inventor και με
+διαδικασία «σύρε και άφησε» να συνδυάσει πλακίδια και να αναπτύξει εφαρμογές για φορητές συσκευές με Android, το οποίο
+επίσης κατασκεύασε η Google βασισμένη στο ελεύθερο κι ανοικτό λειτουργικό σύστημα για υπολογιστές Linux."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Τα πλακίδια
+ενώνονται μόνο όταν προκύπτει συντακτικά σωστό πρόγραμμα,
+και η τελική εφαρμογή μπορεί να εκτελεστεί και να δοκιμαστεί
+είτε απευθείας σε συσκευή που είναι συνδεδεμένη με τον υπολογιστή του χρήστη (ενσύρματα με USB ή ασύρματα με WiFi) είτε
+σε ενσωματωμένο emulator (προσομοιωτή κινητού τηλεφώνου)."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Η κλασική δομή του περιβάλλοντος του App Inventor αποτελείται από: (α) τον Designer (Σχεδιαστή), όπου ο χρήστης επιλέγει τα συστατικά μέρη για την εφαρμογή που αναπτύσσει, και (β) τον Blocks Editor (Συντάκτη πλακιδίων), όπου ο
+χρήστης συνδυάζει οπτικά τα πλακίδια του προγράμματος, για να
+ορίσει τη συμπεριφορά των μερών της εφαρμογής (μοιάζει με τη
+συναρμολόγηση ενός πάζλ)."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="App Inventor Designer:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="411dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:srcCompat="@drawable/app" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Διαδικασία δημιουργίας μιας εφαρμογής στο App Inventor"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="App Inventor Blocks Editor:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="411dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            app:srcCompat="@drawable/app2" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="1. Αρχικά, επισκεπτόμαστε τον επίσημο ιστότοπο του App
+Inventor, ο οποίος περιέχει υλικό στην αγγλική γλώσσα με υποστηρικτικές οδηγίες, οδηγούς εκμάθησης, βιβλιοθήκες, ομάδες
+συζητήσεων κ.ά."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="2. Για να έχουμε δικαίωμα πρόσβασης στο προγραμματιστικό περιβάλλον, θα πρέπει να διαθέτουμε λογαριασμό στην Google.
+Για όσους δεν έχουν λογαριασμό, η εγγραφή είναι εύκολη και δωρεάν. Επιλέγουμε τον σύνδεσμο Create και στο παράθυρο που μας ανοίγει κάνουμε είσοδο με τα στοιχεία του λογαριασμού μας."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="3. Στην αρχική οθόνη που εμφανίζεται επιλέγουμε New Project."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="4. Ανοίγει η καρτέλα Designer, για να σχεδιάσουμε την εμφάνιση της εφαρμογής
+μας επιλέγοντας τα απαραίτητα συστατικά στοιχεία και ορίζοντας ιδιότητες γι’ αυτά."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="5. Μόλις ολοκληρώσουμε τη σχεδίαση της εφαρμογής μας και την παραμετροποίηση των συστατικών της μέσω των ιδιοτήτων τους, ανοίγουμε την καρτέλα Blocks (εικόνα 7.7). Ο προγραμματισμός γίνεται στο πλαίσιο Viewer, όπου σύρουμε από το πλαίσιο Blocks τα κατάλληλα
+πλακίδια και τα συνδυάζουμε, για να ορίσουμε τις συμπεριφορές και τις συσχετίσεις της εφαρμογής μας. Τα πλακίδια είναι χρωματιστά και χωρίζονται σε δύο κατηγορίες: τα ενσωματωμένα
+(Built-in), που ορίζουν γενικές συμπεριφορές στην εφαρμογή μας, και τα σχετικά με συγκεκριμένα συστατικά της εφαρμογής που ορίζουν συμπεριφορές γι’ αυτά."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="6. Στο τελευταίο βήμα εγκαθιστούμε και ελέγχουμε την εφαρμογή μας με σύνδεση σε κάποια
+φορητή συσκευή. Επιλέγουμε από το μενού Connect: AI Companion για σύνδεση
+μέσω WiFi, με την απαραίτητη προϋπόθεση να το έχουμε πρώτα εγκαταστήσει στη συσκευή
+μας ή USB για ενσύρματη σύνδεση ή Emulator για προσομοίωση φορητής συσκευής στον
+υπολογιστή μας."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
