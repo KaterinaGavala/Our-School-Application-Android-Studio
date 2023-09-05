@@ -14,7 +14,8 @@ Main page with the units, statistics and the final test :
 
 Theory of Unit 5 :
 
-![Unit 5](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/98adb143-9d9d-4713-8ae6-3cfb2959ab24)
+![Unit 5](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/955a5f91-7d64-4b5b-a57d-4de9923244ff)
+
 
 
 Test of Unit 5 :
