@@ -4,12 +4,14 @@ This project is made for educational porposes. We created a phone application in
 
 First page of application : 
 
-![output-onlinepngtools](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/dc27e32c-a4aa-448a-926a-19de4dc0dc8f)
+![First Page](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/93dfc97d-ef11-449a-ae5d-129192f81638)
+
 
 
 Main page with the units, statistics and the final test :
 
-![Main page](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/83054efc-9f67-484d-8191-b407c08e9b34)
+![Main page](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/b348daf1-cda5-4b3c-bb26-c217939622e4)
+
 
 
 Theory of Unit 5 :
@@ -20,6 +22,7 @@ Theory of Unit 5 :
 
 Test of Unit 5 :
 
-![Test 5](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/96aa52f0-7f92-42b7-88dc-fc3cc6e58d6b)
+![Test 5](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/211ec0f3-74d7-4135-9c48-d4d73f13583c)
+
 
 
