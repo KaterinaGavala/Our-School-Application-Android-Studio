@@ -3,7 +3,8 @@
 This project is made for educational porposes. We created a phone application in order to help students study three specific units. At the end of each unit there is a test (True/False and multiple choice questions) based on the subject of the unit. There is also a big final test for all the units. 
 
 First page of application : 
-![output-onlinepngtools](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/cecb3fb8-22df-4c20-b2e8-d15d5871301a)
+
+![output-onlinepngtools](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/dc27e32c-a4aa-448a-926a-19de4dc0dc8f)
 
 
 Main page with the units, statistics and the final test :
