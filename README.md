@@ -8,11 +8,17 @@ First page of application :
 
 
 Main page with the units, statistics and the final test :
-![Screenshot_2023-09-05-12-59-29-377_com example ourschoolapplication](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/f206bb84-0a17-46b2-ad67-388788938bb3)
+
+![Main page](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/83054efc-9f67-484d-8191-b407c08e9b34)
+
 
 Theory of Unit 5 :
-![Screenshot_2023-09-05-12-59-46-866_com example ourschoolapplication](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/299f4afa-a19c-44c4-9d55-4b50a4bde009)
+
+![Unit 5](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/98adb143-9d9d-4713-8ae6-3cfb2959ab24)
+
 
 Test of Unit 5 :
-![Screenshot_2023-09-05-12-59-54-922_com example ourschoolapplication](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/6ab44f9f-44b3-4c52-91ae-cfdf42e8d714)
+
+![Test 5](https://github.com/KaterinaGavala/Our-School-Application-Android-Studio/assets/121763578/96aa52f0-7f92-42b7-88dc-fc3cc6e58d6b)
+
 
